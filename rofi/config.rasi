@@ -1,0 +1,112 @@
+configuration {
+
+	font: "JetBrains Mono Nerd Font 10";
+	width: 30;
+	line-margin: 10;
+	lines: 6;
+	columns: 2;
+
+    display-ssh:    "";
+    display-run:    "";
+    display-drun:   "";
+    display-window: "";
+    display-combi:  "";
+    show-icons:     true;
+}
+
+* {
+	nord0: #27213c;
+	nord1: #ffd6af;
+	nord9: #5db7de;
+	nord13: #b19fc3;
+
+    foreground:  @nord0;
+    backlight:   @nord0;
+    background-color:  @nord0;
+    
+    highlight:     underline bold #b19fc3;
+
+    transparent: @nord0;
+}
+
+window {
+    location: center;
+    anchor:   center;
+    transparency: "screenshot";
+
+    background-color: @nord0;
+    spacing: 0;
+    children:  [mainbox];
+    orientation: horizontal;
+}
+
+mainbox {
+    spacing: 0;
+    children: [ inputbar, message, listview ];
+}
+
+message {
+    color: @nord0;
+    padding: 5;
+    border-color: @foreground;
+    border:  0px 2px 2px 2px;
+    background-color: @nord7;
+}
+
+inputbar {
+    color: @nord6;
+    padding: 11px;
+    background-color: @nord0;
+
+}
+
+entry, prompt, case-indicator {
+    text-font: #ffffff;
+    text-color:inherit;
+}
+
+prompt {
+    margin: 0px 0.3em 0em 0em ;
+}
+
+listview {
+    padding: 8px;
+    border-radius: 0px 0px 6px 6px;
+    border-color: @nord10;
+    border: 0px 1px 1px 1px;
+    background-color: @nord0;
+    dynamic: true;
+}
+
+element {
+    vertical-align: 0.5;
+    border-radius: 4px;
+    background-color: @nord0;
+    color: @nord13;
+    text-color: @nord13;
+}
+
+element selected.normal {
+	background-color: @nord13;
+	text-color: @nord1;
+}
+
+element-text, element-icon {
+    background-color: transparent;
+    text-color:       @nord0;
+}
+
+button {
+    padding: 6px;
+    color: @foreground;
+    horizontal-align: 0.5;
+
+    border: 2px 0px 2px 2px;
+    border-radius: 4px 0px 0px 4px;
+    border-color: @foreground;
+}
+
+button selected normal {
+    border: 2px 0px 2px 2px;
+    border-color: @foreground;
+}

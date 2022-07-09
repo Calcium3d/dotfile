@@ -1,0 +1,16 @@
+* {
+   	shade1: #B19FC3;
+   	shade2: #27213C;
+   	shade3: #27213C;
+	shade4: #5DB7DE;
+}
+
+* {
+    background:                     @shade2;
+    background-alt:                 @shade1;
+    foreground:                     @shade3;
+    border:               			@shade4;
+    border-alt:               		#715979ff;
+    selected:               		@shade4;
+    urgent:                         #DA4453FF;
+}

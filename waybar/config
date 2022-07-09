@@ -1,0 +1,93 @@
+{
+"layer": "top",
+"position": "top",
+"modules-left": ["cpu", "memory", "battery", "pulseaudio"],
+"modules-center": ["sway/workspaces"],
+"modules-right": ["network", "clock", "tray"],
+"sway/window": {
+},
+
+"battery": {
+  "interval": 15,
+  "min-length": 5,
+  "states": {
+  "full": 95,
+  "warning": 30,
+  "critical": 20,
+  },
+  "tooltip": false,
+  "full-at": 90,
+  "format-plugged": "{icon} {capacity}%",
+  "format-charging": "{icon} {capacity}%",
+  "format": "{icon} {capacity}%",
+  "format-icons": ["", "", "", "", "", "", "", "", "", ""],
+},
+
+"clock": {
+  "format": "  {:%a %b %d %H:%M}",
+  "tooltip": false,
+  "min-length": 18,
+},
+
+"network": {
+  "format-wifi": "   {essid}",
+  "format-ethernet": " {ipaddr}",
+  "format-linked": " {ifname}",
+  "format-disconnected": " Disconnected",
+  "tooltip": false,
+  "max-length": 20,
+  "min-length": 14,
+},
+
+"pulseaudio": {
+  "tooltip": false,
+  "min-length": 5,
+  "format": "{icon} {volume}%",
+  "format-bluetooth": "{icon} {volume}%",
+  "format-muted": "MUTE",
+  "format-icons": {
+  "headphone": " ",
+  "headset": " ",
+  "default": [" ", " ", " "],
+  },
+  "on-click": "pamixer -t",
+  "on-click-right": "pavucontrol",
+},
+
+"cpu": {
+  "interval": 4,
+  "min-length": 6,
+  "format": "  {usage}% ",
+  "tooltip": false,
+  "states": {
+  "critical": 90,
+  },
+},
+
+"memory": {
+  "tooltip": false,
+  "format": "  {percentage}%",
+  "states": {
+    "critical":90,
+  },
+  "min-length": 5,
+},
+
+"sway/workspaces": {
+  "tooltip": false,
+  "disable-scroll": true,
+  "format-icons": {
+	"1": "一",
+	"2": "二",
+	"3": "三",
+	"4": "四",
+	"5": "五",
+	"6": "六",
+	"7": "七",
+	"8": "八",
+	"9": "九",
+	"10": "十",
+  }
+},
+}
+

@@ -1,0 +1,44 @@
+window:
+  opacity: 0.9
+
+schemes:
+  anya: &anya
+    primary:
+      background: '0x27213c'
+      foreground: '0xffd6af'
+      dim_foreground:    '0xffd6af'
+      bright_foreground: '0xffd6af'
+      dim_background:    '0x27213c' # not sure
+      bright_background: '0x27213c' # not sure
+    cursor:
+      text:   '0xffd6af'
+      cursor: '0xffd6af'
+    normal:
+      black:   '0x27213c'
+      red:     '0xf02d3a'
+      green:   '0x5db7de'
+      yellow:  '0xb19fc3'
+      blue:    '0x5db7de'
+      magenta: '0xb19fc3'
+      cyan:    '0x5db7de'
+      white:   '0xcacaca'
+    bright:
+      black:   '0x27213c'
+      red:     '0xf02d3a'
+      green:   '0x5db7de'
+      yellow:  '0xb19fc3'
+      blue:    '0x5db7de'
+      magenta: '0xb19fc3'
+      cyan:    '0x5db8de'
+      white:   '0xf7f7f7'
+    dim:
+      black:   '0x27213c'
+      red:     '0xf02d3a'
+      green:   '0x5db7de'
+      yellow:  '0xb19fc3'
+      blue:    '0x5db7de'
+      magenta: '0xb19fc3'
+      cyan:    '0x5db7de'
+      white:   '0x828282'
+
+colors: *anya
