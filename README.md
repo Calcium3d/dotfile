@@ -17,22 +17,23 @@ Using a custom colour palette consisting of:
 I call it the Anya Scheme
 
 # Picture
-![screenshot](https://imgur.com/a/AkRpAFo)
+![screenshot](screenshot.png)
 
 # Tools Used
 
-WM: ![Sway](https://swaywm.org/)
+WM: [Sway](https://swaywm.org/)
 
-Bar: ![Waybar](https://github.com/Alexays/Waybar)
+Bar: [Waybar](https://github.com/Alexays/Waybar)
 
-Terminal: ![Alacritty](https://github.com/alacritty/alacritty)
+Terminal: [Alacritty](https://github.com/alacritty/alacritty)
 
-Shell: ![Fish](https://fishshell.com/)
+Shell: [Fish](https://fishshell.com/)
 
-Prompt: ![Starship](https://starship.rs/)
+Prompt: [Starship](https://starship.rs/)
 
-Font: ![JetBrains Mono](https://www.jetbrains.com/lp/mono/)
-Launcher: ![Rofi](https://github.com/davatorium/rofi)
+Font: [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+
+Launcher: [Rofi](https://github.com/davatorium/rofi)
 
 # Wallpaper 
-![wallpaper](https://imgur.com/a/mcaTCZR)
+![wallpaper](wallpaper.png)
