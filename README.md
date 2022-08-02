@@ -17,7 +17,7 @@ Using a custom colour palette consisting of:
 I call it the Anya Scheme
 
 # Picture
-![screenshot](screenshot.png)
+![screenshot](./screenshot.png)
 
 # Tools Used
 
@@ -36,4 +36,4 @@ Font: [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 Launcher: [Rofi](https://github.com/davatorium/rofi)
 
 # Wallpaper 
-![wallpaper](wallpaper.png)
+![](./wallpaper.png)
